@@ -28,9 +28,7 @@ const Hero = () => {
                 </div>
                 <div className="w-12 h-12 flex items-center justify-center rounded-full  dark:bg-white">
                   <Link
-                    href={
-                      "https://www.linkedin.com/in/muhammad-zaky-raihan-826150256/"
-                    }
+                    href={"https://www.linkedin.com/in/muhammad-zaky-raihan-826150256/"}
                   >
                     <Image
                       alt="linkedIn"
@@ -56,15 +54,12 @@ const Hero = () => {
             </div>
             <div>
               <h1 className="xl:text-[50px] lg:text-[40px] sm:text-[35px]  text-[25px] font-semibold leading-[3rem] text-black dark:text-white mb-5">
-                Hello, I&apos;m{" "}
-                <span className="text-primary">Zaky Raihan</span>
+                Hello.I am <span className="text-primary ">Zaky Raihan</span>
               </h1>
-
               <TypeWrite></TypeWrite>
               <p className="mt-[1.2rem] text-[15px] md:text-17 dark:text-white  dark:opacity-85 text-black/70  font-medium text-base ">
                 Selamat datang di portofolio saya! Di sini, Anda dapat melihat
-                karya-karya saya di bidang pengembangan frontend Mobile dan Web
-                development.
+                karya-karya saya di bidang pengembangan frontend Mobile dan Web development.
                 {/* Selamat datang di portofolio saya! Di sini, Anda dapat melihat
                 karya-karya saya di bidang pengembangan frontend dan desain
                 grafis. Saya siap menghadapi tantangan baru dan terus belajar
@@ -109,10 +104,7 @@ const Hero = () => {
                 </div>
               </div>
               <div className="mt-3 ">
-                <button
-                  onClick={handleClick}
-                  className="rounded-lg text-center px-6 py-3 bg-primary  text-black/70 dark:text-white font-semibold   shadow-lg transition-all hover:bg-blue-600"
-                >
+                <button onClick={handleClick} className="rounded-lg text-center px-6 py-3 bg-primary  text-black/70 dark:text-white font-semibold   shadow-lg transition-all hover:bg-blue-600">
                   pekerjakan saya
                 </button>
               </div>
