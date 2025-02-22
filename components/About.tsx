@@ -5,8 +5,8 @@ import SkillCard from "./Helper/SkillCard";
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/Muhammad_Fatih_Alhijri.pdf"; // Path ke file PDF di folder 'public'
-    link.download = "Muhammad_Fatih_Alhijri.pdf"; // Nama file yang akan didownload
+    link.href = "/zaky_resume1.pdf"; // Path ke file PDF di folder 'public'
+    link.download = "/zaky_resume1.pdf"; // Nama file yang akan didownload
     link.click();
   };
   return (
@@ -37,7 +37,7 @@ const About = () => {
               onClick={handleDownload}
               className="text-center px-6 py-3 bg-primary  text-black/70 dark:text-white font-semibold   shadow-lg transition-all hover:bg-blue-600"
             >
-              <span>pekerjakan saya</span>
+              <span>Terbuka Untuk Kerja</span>
             </button>
           </div>
         </div>
@@ -112,28 +112,7 @@ const About = () => {
                 // percent={"80%"}
               />
             </div>
-            {/* <div
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
-              data-aos-delay="1200"
-            >
-              <SkillCard
-                title={"MonggoDB "}
-                image={`/images/mongo.svg`}
-                // percent={"80%"}
-              />
-            </div>
-            <div
-              data-aos="fade-up"
-              data-aos-anchor-placement="top-center"
-              data-aos-delay="1400"
-            >
-              <SkillCard
-                title={"Python "}
-                image={`/images/python.svg`}
-                // percent={"80%"}
-              />
-            </div> */}
+           
           </div>
         </div>
       </div>
