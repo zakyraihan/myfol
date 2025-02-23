@@ -100,7 +100,7 @@ const Hero = () => {
               </div>
               <div className="mt-3 ">
                 <button onClick={handleClick} className="rounded-lg text-center px-6 py-3 bg-primary  text-black/70 dark:text-white font-semibold   shadow-lg transition-all hover:bg-blue-600">
-                  pekerjakan saya
+                  Terbuka Untuk Bekerja
                 </button>
               </div>
               

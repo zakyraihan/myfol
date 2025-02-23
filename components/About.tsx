@@ -5,8 +5,8 @@ import SkillCard from "./Helper/SkillCard";
 const About = () => {
   const handleDownload = () => {
     const link = document.createElement("a");
-    link.href = "/zaky_resume1.pdf"; // Path ke file PDF di folder 'public'
-    link.download = "/zaky_resume1.pdf"; // Nama file yang akan didownload
+    link.href = "/Resume (1).pdf"; // Path ke file PDF di folder 'public'
+    link.download = "/Zaky_Raihan_Resume.pdf"; // Nama file yang akan didownload
     link.click();
   };
   return (
